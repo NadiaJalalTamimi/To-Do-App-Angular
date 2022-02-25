@@ -14,10 +14,10 @@ export class AddTaskComponent implements OnInit {
   day!: string;
   reminder: boolean = false;
   showAddTask!: boolean;
-  Subscription: Subscription;
+  subscription: Subscription;
 
   constructor(private uiService: UiService) {
-    this.Subscription = this.uiService
+    this.subscription = this.uiService
       .onToggle()
       .subscribe((value) => (this.showAddTask = value));
   }

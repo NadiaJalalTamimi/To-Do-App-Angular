@@ -18,10 +18,10 @@ faTimes = faTimes;
   }
 
   onDelete(task:Task){
-    this.onDeleteTask.emit();
+    this.onDeleteTask.emit(task);
   }
   onToggle(task:Task){
-    this.onToggleReminder.emit();
+    this.onToggleReminder.emit(task);
   }
 
 }
