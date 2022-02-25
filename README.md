@@ -2,6 +2,6 @@
 
 ##How to run the project:
 
--`git clone `
--`ng serve`
--`npm run server`
+- `git clone `  
+- `ng serve`
+- `npm run server`
